@@ -1,6 +1,8 @@
 ﻿using ContactMaintenance.Controllers;
 using ContactMaintenance.Provider;
 using ContactMaintenance.Repository;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -15,19 +17,28 @@ namespace ContactMaintenance.Test
     {
         private ContactsController controller;
         private ContactContext dbContext;
+        private readonly ILogger<ContactsController> _logger;
 
         public CaontactControllerTest()
         {
+            //_logger = logger;
             dbContext = MockDBContext.GetMockContext("DBContacts");
+            var serviceProvider = new ServiceCollection()
+                                    .AddLogging()
+                                    .BuildServiceProvider();
+
+            var factory = serviceProvider.GetService<ILoggerFactory>();
+
+            var logger = factory.CreateLogger<ContactsController>();
             IContactRepository repository = new ContactRepository(dbContext);
-           // ILogger<ContactsController> logger = new DBLoggerProvider().CreateLogger()
-            controller = new ContactsController(repository);
+            controller = new ContactsController(repository, logger);
+
         }
 
         [Fact]
         public void TestGetContacts()
         {
-            // Act
+
             var response = controller.GetContacts();
             var contacts = response;
 

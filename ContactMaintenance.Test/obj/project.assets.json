@@ -10376,11 +10376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EvolentHealth\\ContactMaintenance.Test\\ContactMaintenance.Test.csproj",
+      "projectUniqueName": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance.Test\\ContactMaintenance.Test.csproj",
       "projectName": "ContactMaintenance.Test",
-      "projectPath": "D:\\EvolentHealth\\ContactMaintenance.Test\\ContactMaintenance.Test.csproj",
+      "projectPath": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance.Test\\ContactMaintenance.Test.csproj",
       "packagesPath": "C:\\Users\\Partha Sarma\\.nuget\\packages\\",
-      "outputPath": "D:\\EvolentHealth\\ContactMaintenance.Test\\obj\\",
+      "outputPath": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10399,8 +10399,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\EvolentHealth\\ContactMaintenance\\ContactMaintenance.csproj": {
-              "projectPath": "D:\\EvolentHealth\\ContactMaintenance\\ContactMaintenance.csproj"
+            "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance\\ContactMaintenance.csproj": {
+              "projectPath": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance\\ContactMaintenance.csproj"
             }
           }
         }

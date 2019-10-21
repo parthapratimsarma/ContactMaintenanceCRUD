@@ -12719,11 +12719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EvolentHealth\\ContactMaintenance\\ContactMaintenance.csproj",
+      "projectUniqueName": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance\\ContactMaintenance.csproj",
       "projectName": "ContactMaintenance",
-      "projectPath": "D:\\EvolentHealth\\ContactMaintenance\\ContactMaintenance.csproj",
+      "projectPath": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance\\ContactMaintenance.csproj",
       "packagesPath": "C:\\Users\\Partha Sarma\\.nuget\\packages\\",
-      "outputPath": "D:\\EvolentHealth\\ContactMaintenance\\obj\\",
+      "outputPath": "D:\\EvolentHealth\\ContactMaintenanceCRUD\\ContactMaintenance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

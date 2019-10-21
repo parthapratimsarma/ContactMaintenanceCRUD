@@ -59,7 +59,7 @@ namespace ContactMaintenance.Controllers
 
         // PUT: api/Contacts/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutContacts([FromRoute] long id, [FromBody] Contacts contacts)
+        public IActionResult PutContacts([FromRoute] long id, [FromBody] Contacts contacts)
         {
             if (!ModelState.IsValid)
             {
@@ -91,8 +91,8 @@ namespace ContactMaintenance.Controllers
         }
 
         // POST: api/Contacts
-        [HttpPost]        
-        public async Task<IActionResult> PostContacts([FromBody] Contacts contacts)
+        [HttpPost]
+        public IActionResult PostContacts([FromBody] Contacts contacts)
         {
             if (!ModelState.IsValid)
             {

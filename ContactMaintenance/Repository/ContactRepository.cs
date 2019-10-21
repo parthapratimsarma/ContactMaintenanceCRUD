@@ -44,7 +44,7 @@ namespace ContactMaintenance.Repository
             _contactContext.SaveChanges();
         }
 
-        public async void UpdateContact(Contacts contact)
+        public void UpdateContact(Contacts contact)
         {
             _contactContext.Entry(contact).State = EntityState.Modified;
             SaveChanges();
