@@ -1,0 +1,38 @@
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.deps.json
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.runtimeconfig.json
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.runtimeconfig.dev.json
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.dll
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.pdb
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csprojAssemblyReference.cache
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CoreCompileInputs.cache
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfoInputs.cache
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfo.cs
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.dll
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.pdb
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.dll
+E:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.pdb
+E:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CopyComplete
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.deps.json
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.runtimeconfig.json
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.runtimeconfig.dev.json
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.dll
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.pdb
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.dll
+D:\Evolent Health\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.pdb
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csprojAssemblyReference.cache
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CoreCompileInputs.cache
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfoInputs.cache
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfo.cs
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CopyComplete
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.dll
+D:\Evolent Health\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.pdb
+D:\EvolentHealth\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csprojAssemblyReference.cache
+D:\EvolentHealth\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CoreCompileInputs.cache
+D:\EvolentHealth\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfoInputs.cache
+D:\EvolentHealth\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfo.cs

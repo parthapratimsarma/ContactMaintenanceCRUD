@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactMaintenance", "ContactMaintenance.csproj", "{6B743EA5-75E5-479A-B16A-27C8EF6970E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactMaintenance.Test", "..\ContactMaintenance.Test\ContactMaintenance.Test.csproj", "{771E7A57-AD45-42D4-9294-60CE606370CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B743EA5-75E5-479A-B16A-27C8EF6970E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B743EA5-75E5-479A-B16A-27C8EF6970E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B743EA5-75E5-479A-B16A-27C8EF6970E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B743EA5-75E5-479A-B16A-27C8EF6970E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771E7A57-AD45-42D4-9294-60CE606370CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771E7A57-AD45-42D4-9294-60CE606370CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771E7A57-AD45-42D4-9294-60CE606370CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771E7A57-AD45-42D4-9294-60CE606370CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA73046-834F-43B2-952F-688181033D65}
+	EndGlobalSection
+EndGlobal

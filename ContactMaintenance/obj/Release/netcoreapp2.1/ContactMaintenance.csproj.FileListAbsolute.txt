@@ -1,0 +1,14 @@
+D:\Evolent Health\ContactMaintenance\bin\Release\netcoreapp2.1\ContactMaintenance.deps.json
+D:\Evolent Health\ContactMaintenance\bin\Release\netcoreapp2.1\ContactMaintenance.runtimeconfig.json
+D:\Evolent Health\ContactMaintenance\bin\Release\netcoreapp2.1\ContactMaintenance.runtimeconfig.dev.json
+D:\Evolent Health\ContactMaintenance\bin\Release\netcoreapp2.1\ContactMaintenance.dll
+D:\Evolent Health\ContactMaintenance\bin\Release\netcoreapp2.1\ContactMaintenance.pdb
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.csprojAssemblyReference.cache
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.csproj.CoreCompileInputs.cache
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.RazorAssemblyInfo.cache
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.RazorAssemblyInfo.cs
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.AssemblyInfoInputs.cache
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.AssemblyInfo.cs
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.RazorTargetAssemblyInfo.cache
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.dll
+D:\Evolent Health\ContactMaintenance\obj\Release\netcoreapp2.1\ContactMaintenance.pdb
