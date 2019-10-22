@@ -32,3 +32,6 @@ Test with Swagger
 
 Validations for creating and updating contact
 ---------------------------------------------
+1. Phone Number should match "123-123-1234" or "(123)-123-1234" or "(312) 123 1234" format
+2. Email should match "abc@abc.com" or "abc.abc@abc.com"
+3. FirstName, Email, PhoneNumber are required fields.
