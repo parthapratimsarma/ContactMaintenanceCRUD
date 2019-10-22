@@ -73,7 +73,7 @@ namespace ContactMaintenance.Test
                 Status = "Active"
             });
 
-            var contact = response.Result;
+            var contact = response;
 
             dbContext.Dispose();
             // Assert
