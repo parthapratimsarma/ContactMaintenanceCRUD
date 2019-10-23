@@ -22,6 +22,14 @@ namespace ContactMaintenance.Models
         [RegularExpression(@"^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$")]
         [Required]
         public string PhoneNumber { get; set; }
-        public string Status { get; set; }
+
+        [Required]
+        public ContactStatus Status { get; set; }
+    }
+
+    public enum ContactStatus
+    {
+        Active = 1,
+        Inactive = 2
     }
 }

@@ -17,7 +17,6 @@ namespace ContactMaintenance.Test
     {
         private ContactsController controller;
         private ContactContext dbContext;
-        private readonly ILogger<ContactsController> _logger;
 
         public CaontactControllerTest()
         {
@@ -70,7 +69,7 @@ namespace ContactMaintenance.Test
                 LastName = "Ali",
                 Email = "ariali@gmail",
                 PhoneNumber = "131-123-1233",
-                Status = "Active"
+                Status = Models.ContactStatus.Active
             });
 
             var contact = response;

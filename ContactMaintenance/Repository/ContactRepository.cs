@@ -15,7 +15,7 @@ namespace ContactMaintenance.Repository
         {
             _contactContext = context;
         }
-        public async void DeleteCotact(long id)
+        public void DeleteCotact(long id)
         {
             _contactContext.Contacts.Remove(_contactContext.Contacts.Find(id));
             SaveChanges();
@@ -23,17 +23,24 @@ namespace ContactMaintenance.Repository
 
         public List<Contacts> GetAllContacts()
         {
-            return _contactContext.Contacts.Where(x=>x.Status.ToUpper()=="ACTIVE").ToList();
-        }       
+            try
+            {
+                return _contactContext.Contacts.ToList();
+            }
+            catch(Exception ex)
+            {
+                throw ex; 
+            }
+        }
 
-        public async void InsertContact(Contacts contact)
+        public void InsertContact(Contacts contact)
         {
             try
             {
                 _contactContext.Contacts.Add(contact);
                 SaveChanges();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -41,7 +48,14 @@ namespace ContactMaintenance.Repository
 
         public void SaveChanges()
         {
-            _contactContext.SaveChanges();
+            try
+            {
+                _contactContext.SaveChanges();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public void UpdateContact(Contacts contact)
@@ -52,7 +66,14 @@ namespace ContactMaintenance.Repository
 
         public async Task<Contacts> GetContactById(long contactId)
         {
-            return await _contactContext.Contacts.FindAsync(contactId);
+            try
+            {
+                return await _contactContext.Contacts.FindAsync(contactId);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

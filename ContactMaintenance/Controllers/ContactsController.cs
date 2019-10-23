@@ -28,16 +28,32 @@ namespace ContactMaintenance.Controllers
             _logger = logger;
         }
 
-        // GET: api/Contacts
+        /// <summary>
+        /// Get all contacts. "api/Contacts"
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<Contacts> GetContacts()
         {
-            var contactList = _repository.GetAllContacts();
-            _logger.LogInformation("Contact List Retrieved");
-            return contactList;
+            try
+            {
+                var contactList = _repository.GetAllContacts();
+                _logger.LogInformation("Contact List Retrieved");
+                return contactList;
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex.InnerException!=null?ex.InnerException.Message:ex.StackTrace);
+                throw ex;
+            }
         }
 
-        // GET: api/Contacts/5
+        
+        /// <summary>
+        /// Get contacts by contact Id. "api/Contacts/5"
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetContacts([FromRoute] long id)
         {
@@ -45,19 +61,32 @@ namespace ContactMaintenance.Controllers
             {
                 return BadRequest(ModelState);
             }
-
-            var contacts = await _repository.GetContactById(id);
-            _logger.LogInformation($"Contact List Retrieved for contact id {contacts.ContactId}");
-
-            if (contacts == null)
+            try
             {
-                return NotFound();
-            }
+                var contacts = await _repository.GetContactById(id);
+                _logger.LogInformation($"Contact List Retrieved for contact id {contacts.ContactId}");
 
-            return Ok(contacts);
+                if (contacts == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(contacts);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.InnerException!=null?ex.InnerException.Message:ex.StackTrace);
+                throw ex;
+            }
         }
 
-        // PUT: api/Contacts/5
+
+        /// <summary>
+        /// Update contact by contact id. "api/Contacts/5"
+        /// </summary>
+        /// <param name="id"> contact id</param>
+        /// <param name="contacts"> contact model to update</param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public IActionResult PutContacts([FromRoute] long id, [FromBody] Contacts contacts)
         {
@@ -86,11 +115,21 @@ namespace ContactMaintenance.Controllers
                     throw;
                 }
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.InnerException!=null?ex.InnerException.Message:ex.StackTrace);
+                throw ex;
+            }
 
             return NoContent();
         }
 
-        // POST: api/Contacts
+
+        /// <summary>
+        /// Add contact to DB. "api/Contacts"
+        /// </summary>
+        /// <param name="contacts">Contact model to add to DB</param>
+        /// <returns></returns>      
         [HttpPost]
         public IActionResult PostContacts([FromBody] Contacts contacts)
         {
@@ -98,13 +137,25 @@ namespace ContactMaintenance.Controllers
             {
                 return BadRequest(ModelState);
             }
+            try
+            {
+                _repository.InsertContact(contacts);
+                return CreatedAtAction("GetContacts", new { id = contacts.ContactId }, contacts);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.InnerException!=null?ex.InnerException.Message:ex.StackTrace);
+                throw ex;
+            }
 
-            _repository.InsertContact(contacts);
-
-            return CreatedAtAction("GetContacts", new { id = contacts.ContactId }, contacts);
         }
 
-        // DELETE: api/Contacts/5
+
+        /// <summary>
+        /// Delete contact rom DB by contact Id. "api/Contacts/5"
+        /// </summary>
+        /// <param name="id">contact id to delete rom DB</param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteContacts([FromRoute] long id)
         {
@@ -118,13 +169,27 @@ namespace ContactMaintenance.Controllers
             {
                 return NotFound();
             }
+            try
+            {
+                _repository.DeleteCotact(id);
 
-            _repository.DeleteCotact(id);
+                return Ok(contacts);
+            }
 
-            return Ok(contacts);
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.InnerException!=null?ex.InnerException.Message:ex.StackTrace);
+                throw ex;
+            }
+
         }
 
-        private bool ContactsExists(long id)
+/// <summary>
+/// Check if contact exists or not
+/// </summary>
+/// <param name="id"> contact id</param>
+/// <returns></returns>
+private bool ContactsExists(long id)
         {
             return _repository.GetAllContacts().Any(e => e.ContactId == id);
         }

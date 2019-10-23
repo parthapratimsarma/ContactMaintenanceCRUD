@@ -14,7 +14,7 @@ namespace ContactMaintenance.Test
                 LastName="Singh",
                 Email="Anupamsingh@gmail",
                 PhoneNumber="131-123-1233",
-                Status="Active"
+                Status=Models.ContactStatus.Active
             });
             dbContext.Contacts.Add(new Models.Contacts()
             {
@@ -22,7 +22,7 @@ namespace ContactMaintenance.Test
                 LastName = "Singh",
                 Email = "rohitsingh@gmail",
                 PhoneNumber = "131-876-1233",
-                Status = "Active"
+                Status = Models.ContactStatus.Active
             });
             dbContext.Contacts.Add(new Models.Contacts()
             {
@@ -30,7 +30,7 @@ namespace ContactMaintenance.Test
                 LastName = "Kumar",
                 Email = "ramkumar@gmail",
                 PhoneNumber = "131-123-1233",
-                Status = "Active"
+                Status = Models.ContactStatus.Active
             });
             dbContext.SaveChanges();
         }

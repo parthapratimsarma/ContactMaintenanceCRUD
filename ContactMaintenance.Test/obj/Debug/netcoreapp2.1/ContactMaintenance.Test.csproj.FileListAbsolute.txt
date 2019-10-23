@@ -45,7 +45,6 @@ D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\bin\Debug\netcor
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.dll
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.Test.pdb
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.dll
-D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.pdb
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csprojAssemblyReference.cache
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CoreCompileInputs.cache
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.AssemblyInfoInputs.cache
@@ -53,3 +52,4 @@ D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcor
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.csproj.CopyComplete
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.dll
 D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\obj\Debug\netcoreapp2.1\ContactMaintenance.Test.pdb
+D:\EvolentHealth\ContactMaintenanceCRUD\ContactMaintenance.Test\bin\Debug\netcoreapp2.1\ContactMaintenance.pdb

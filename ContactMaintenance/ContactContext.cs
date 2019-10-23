@@ -18,6 +18,12 @@ namespace ContactMaintenance
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Contacts>().HasIndex(x => x.Email).IsUnique();
+            builder
+        .Entity<Contacts>()
+        .Property(e => e.Status)
+        .HasConversion(
+            v => v.ToString(),
+            v => (ContactStatus)Enum.Parse(typeof(ContactStatus), v));
         }
     }
 }
